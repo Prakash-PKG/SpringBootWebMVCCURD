@@ -26,6 +26,7 @@ public class StudentController {
 	//1. show reg page
 	@GetMapping("/register")
 	public String showReg(Model model) {
+		int a=20;
 		//Form Backing Object
 		model.addAttribute("student", new Student());
 		return "StudentRegister";
