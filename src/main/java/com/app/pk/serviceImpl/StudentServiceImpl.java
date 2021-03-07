@@ -19,6 +19,7 @@ public class StudentServiceImpl implements IStudentService {
 	
 	@Override
 	public Integer saveStudent(Student s) {
+		int k=50;
 		return repo.save(s).getStdId();
 	}
 
