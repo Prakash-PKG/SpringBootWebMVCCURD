@@ -29,6 +29,7 @@ public class StudentController {
 		int a=20;
 		int p=100;
 		int l=1000000;
+		int p1=00000;
 		//Form Backing Object
 		model.addAttribute("student", new Student());
 		return "StudentRegister";
