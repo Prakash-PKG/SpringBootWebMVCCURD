@@ -28,7 +28,7 @@ public class StudentController {
 	public String showReg(Model model) {
 		int a=20;
 		int p=100;
-		int k=9999999;
+		int l=1000000;
 		//Form Backing Object
 		model.addAttribute("student", new Student());
 		return "StudentRegister";
