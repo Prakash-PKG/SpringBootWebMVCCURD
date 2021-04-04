@@ -29,6 +29,7 @@ public class StudentController {
 		int a=20;
 		String str="Prakash Garanaik";
 		System.out.println(str);
+		System.out.println("I am form Remote Branch");
 		//Form Backing Object
 		model.addAttribute("student", new Student());
 		return "StudentRegister";
