@@ -27,6 +27,7 @@ public class StudentController {
 	@GetMapping("/register")
 	public String showReg(Model model) {
 		int a=20;
+		int z=90;
 		String str="Prakash Garanaik";
 		System.out.println(str);
 		System.out.println("I am form Remote Branch");
