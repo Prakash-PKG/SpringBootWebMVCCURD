@@ -32,6 +32,7 @@ public class StudentController {
 		System.out.println(str);
 		
 		System.out.println("AAAAAAAAAAAAAAAAAAAAA");
+		System.out.println("BBBBBBBBBBBBBBBBBBBBBB");
 		//Form Backing Object
 		model.addAttribute("student", new Student());
 		return "StudentRegister";
